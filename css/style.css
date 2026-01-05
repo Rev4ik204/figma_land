@@ -364,7 +364,7 @@ button:focus {
 
   border: 1px solid #d3d3d3;
   border-radius: 10px;
-  padding: 40px 0px;
+  padding: 40px 0px 9px 0px;
   width: 476px;
   height: 624px;
 
@@ -419,18 +419,56 @@ button:focus {
 }
 
 .contents_image1 {
+  /* border: 1px solid #d3d3d3;
+border-radius: 10px;
+padding: 40px 0px;
+width: 476px;
+height: 624px;
+
+box-shadow: 0 4px 31px 0 rgba(0, 0, 0, 0.15);
+background: var(--light-text); */
+
+  position: absolute;
+  left:9px;
+top: 9px;
+
+  /* left: calc(100% / 2 - 330px / 2); */
 }
 
-.contents_image2 {
+.contents_image2 {padding: 0;
+}
+
+.contents_work {
+  position: relative;
+}
+
+.bg_img {
+  position: relative;
+  border: 1.52px solid #9fa2a5;
+  border-radius: 5px 5px 0 0;
+  width: 330px;
+  height: 222px;
+
+  margin-bottom: 31px;
+
+  background: var(--first-text);
 }
 
 .contents_base {
+  position: absolute;
+  left: 35.5px;
+  bottom: 45px;
+
   width: 406px;
   height: 9px;
   background-color: #d8d8d8;
 }
 
 .contents_base_bottom {
+  position: absolute;
+  left: 35.5;
+  bottom: 40px;
+
   width: 406px;
   height: 5px;
   background-color: #9fa2a5;
@@ -438,8 +476,85 @@ button:focus {
 }
 
 .contents_grip {
+  position: absolute;
+  left: 210.5px;
+  bottom: 48px;
+
   width: 55px;
   height: 6px;
   border-radius: 0 0 5px 5px;
   background-color: #9fa2a5;
 }
+
+/* -----GALLARY----- */
+
+.gallery .container {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.gallery_title {
+  font-family: var(--font-family);
+font-weight: 400;
+font-size: 52px;
+line-height: 119%;
+letter-spacing: 0em;
+color: var(--light-text);
+
+margin-top: 50px;
+padding: 10px;
+
+}
+
+.gallery_text {
+  font-family: var(--font-family);
+font-weight: 400;
+font-size: 20px;
+line-height: 150%;
+letter-spacing: 0.01em;
+text-align: center;
+color: var(--light-text);
+
+padding: 10px;
+width: 591px;
+}
+
+.gallery_list {
+}
+
+.contents_item {
+}
+
+.gallery_image1 {
+}
+
+.gallery_item {
+}
+
+.gallery_image2 {
+}
+
+.gallery_image3 {
+}
+
+.gallery_image4 {
+}
+
+.gallery_list2 {
+}
+
+.gallery_image5 {
+}
+
+.gallery_image6 {
+}
+
+.gallery_image7 {
+}
+
+.gallery_btn {
+}
+
