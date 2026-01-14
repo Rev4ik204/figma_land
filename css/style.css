@@ -113,6 +113,38 @@ button:focus {
   display: none;
 }
 
+@media screen and (max-width: 550px) {
+  .header .container {
+    width: 510px;
+
+    padding: 15px 0px;
+
+    margin-bottom: 56px;
+  }
+
+  .nav {
+    display: none;
+  }
+
+  .auth {
+    display: flex;
+    gap: 27px;
+    align-items: center;
+  }
+  
+  .header_burger {
+    width: 66px;
+    height: 53px;
+    display: block;
+  }
+
+  .header_burger {
+    width: 66px;
+    height: 53px;
+    display: block;
+  }
+}
+
 /* -----HERO----- */
 
 .hero .container {
