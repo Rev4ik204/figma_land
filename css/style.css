@@ -1004,3 +1004,128 @@ background: var(--light-text); */
   width: 41px;
   height: 41px;
 }
+
+@media screen and (max-width: 550px) {
+  .footer .container {
+    padding-top: 107px;
+    padding-bottom: 107px;
+
+    display: flex;
+    gap: 199px;
+    justify-content: center;
+    align-items: start;
+  }
+
+  .footer_nuv {
+  }
+
+  .footer_list {
+    display: flex;
+    gap: 2px;
+
+  }
+
+  .footer_nuv_item {
+    width: 121px;
+  }
+
+  .footer_nuv_item_title {
+    margin-bottom: 40px;
+  }
+
+  .footer_nuv_item_title_link {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+    color: var(--light-text);
+  }
+
+  .footer_nuv_item_list {
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+  }
+
+  .footer_nuv_item_list_item {
+  }
+
+  .footer_nuv_item_list_item_link {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+    color: var(--light-text);
+  }
+
+  .footer_use_me {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+  }
+
+  .footer_map,
+  .footer_tell {
+    display: flex;
+    align-items: center;
+  }
+
+  .footer_map_img svg {
+    width: 46px;
+    height: 46px;
+  }
+
+  .footer_map_text {
+    padding: 0px 8px;
+    width: 273px;
+    height: 24px;
+
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+    color: var(--light-text);
+  }
+
+  .footer_tell {
+  }
+
+  .footer_tell_img svg {
+    width: 36px;
+    height: 36px;
+  }
+
+  .footer_tell_text {
+    padding: 0px 8px;
+    width: 273px;
+    height: 24px;
+
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+    color: var(--light-text);
+  }
+
+  .footer_media {
+  }
+
+  .footer_media_list {
+    display: flex;
+    gap: 24px;
+    padding: 20px 0;
+    align-items: center;
+  }
+
+  .footer_media_item {
+  }
+
+  .footer_media_item_link svg {
+    width: 41px;
+    height: 41px;
+  }
+}
