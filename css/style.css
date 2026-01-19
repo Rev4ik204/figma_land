@@ -390,95 +390,33 @@ button:focus {
 
 @media screen and (max-width: 550px) {
   .features_text {
-    width: 431px;
+    width: 420px;
     height: 90px;
   }
 
   .wrap {
-    margin-top: 80px;
-    display: flex;
-    align-items: center;
-    gap: 27px;
+    margin-top: 0px;
+    flex-direction: column;
   }
 
   .wrap1 {
-    padding: 1px 28px 99px 28px;
-    position: relative;
+    padding: 1px 28px 86px 28px;
   }
 
   .features_image1 {
   }
 
   .features_image2 {
-    position: absolute;
-    right: 0;
-    bottom: 0;
+    left: 72px;
+    bottom: 16px;
   }
 
   .wrap2 {
-    padding: 20px;
-  }
-
-  .wrap2_list {
-    display: flex;
-    flex-direction: column;
-    gap: 25px;
+    width: 309px;
   }
 
   .wrap2_list_item {
-  }
-
-  .wrap2_list_item:first-child {
-    svg {
-      width: 42px;
-      height: 38px;
-      padding-top: 19px;
-    }
-  }
-
-  .wrap2_list_item:nth-child(2) {
-    svg {
-      width: 34px;
-      height: 35px;
-      padding-top: 15px;
-    }
-  }
-
-  .wrap2_list_item:last-child {
-    svg {
-      width: 41px;
-      height: 19px;
-      padding-top: 17px;
-    }
-  }
-
-  .title_box {
-    display: flex;
-    align-items: start;
-    width: 195px;
-  }
-
-  .wrap2_item_title {
-    padding: 10px;
-
-    font-family: var(--font-family);
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 150%;
-    letter-spacing: 0.01em;
-    color: var(--light-text);
-  }
-
-  .wrap2_item_text {
-    padding: 10px;
-    height: 116px;
-
-    font-family: var(--font-family);
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 150%;
-    letter-spacing: 0.01em;
-    color: var(--light-text);
+    width: 269px;
   }
 }
 
@@ -656,6 +594,72 @@ background: var(--light-text); */
 }
 
 @media screen and (max-width: 550px) {
+  .contents_text {
+    width: 308px;
+  }
+
+  .contents_list {
+    flex-direction: column;
+  }
+
+  .contents_item {
+    padding: 40px 0px;
+    width: 348px;
+    height: 573px;
+  }
+
+  .content_item_text {
+    width: 275px;
+  }
+
+  .contents_image1 {
+    position: absolute;
+    left: 9px;
+    top: 9px;
+
+    /* left: calc(100% / 2 - 330px / 2); */
+  }
+
+  .contents_image2 {
+    padding: 0;
+  }
+
+  .contents_work {
+ 
+  }
+
+  .bg_img {
+    width: 242px;
+    height: 171px;
+  }
+
+  .contents_base {
+    left: 35.5px;
+    bottom: 45px;
+
+    width: 298px;
+    height: 7px;
+  }
+
+  .contents_base_bottom {
+    left: 35.5;
+    bottom: 40px;
+
+    width: 298px;
+    height: 4px;
+    border-radius: 0 0 4px 4px;
+    
+  }
+
+  .contents_grip {
+    left: 210.5px;
+    bottom: 48px;
+
+    width: 40px;
+    height: 4px;
+    border-radius: 0 0 4px 4px;
+    
+  }
 }
 
 /* -----GALLERY----- */
