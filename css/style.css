@@ -609,7 +609,7 @@ background: var(--light-text); */
   .contents_item {
     padding: 40px 0px;
     width: 348px;
-    height: 573px;
+    height: 520px;
     justify-content: start;
     gap: 57px;
   }
@@ -620,7 +620,7 @@ background: var(--light-text); */
 
   .contents_image1 {
     position: absolute;
-    left: 9px;
+    left: 7px;
     top: 9px;
 
     /* left: calc(100% / 2 - 330px / 2); */
@@ -628,6 +628,7 @@ background: var(--light-text); */
 
   .contents_image2 {
     padding: 0;
+    margin-top: -40px;
   }
 
   .contents_work {
@@ -640,8 +641,8 @@ background: var(--light-text); */
   }
 
   .contents_base {
-    left: 35.5px;
-    bottom: 45px;
+    left: 25.5px;
+    bottom: 44px;
 
     width: 298px;
     height: 7px;
@@ -657,7 +658,7 @@ background: var(--light-text); */
   }
 
   .contents_grip {
-    left: 210.5px;
+    left: 150.5px;
     bottom: 48px;
 
     width: 40px;
